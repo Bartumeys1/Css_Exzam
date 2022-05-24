@@ -1,0 +1,16 @@
+
+
+.header{
+    padding-top: 100px;
+}
+.header .contact_phone a{
+    text-decoration: none;
+    color: $color-black;
+    @include font(22px,$color-black,300,$font-montserratt-regulare);
+}
+.header .LoginRegistrationBtn{
+    text-decoration: none;
+    color: $color-black;
+    text-transform: uppercase;
+    @include font(22px,$color-black,400,$font-nunitoSans-regulare);
+}
